@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="17G3025" minimumToolsVersion="Xcode 7.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Media" representedClassName=".Media" syncable="YES">
+        <attribute name="mediadata" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="mediaid" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="mediatype" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notesid" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Notes" representedClassName=".Notes" syncable="YES">
+        <attribute name="datetime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notesid" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="subjectid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Subject" representedClassName=".Subject">
+        <attribute name="subjectid" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="subjectname" optional="YES" attributeType="String" syncable="YES"/>
+        <userInfo/>
+    </entity>
+    <elements>
+        <element name="Media" positionX="270" positionY="252" width="128" height="105"/>
+        <element name="Notes" positionX="261" positionY="207" width="128" height="135"/>
+        <element name="Subject" positionX="261" positionY="189" width="128" height="75"/>
+    </elements>
+</model>
